@@ -1,19 +1,13 @@
-using System;
-using System.Security.Cryptography.X509Certificates;
 using UnityEngine;
-using Microsoft.MixedReality.OpenXR.ARSubsystems;
-using UnityEngine.XR.ARFoundation;
 using Microsoft.MixedReality.OpenXR;
 using TMPro;
 
-public class QRCodeDetection : MonoBehaviour
+public class TestQRCodeDetection : MonoBehaviour
 {
     public GameObject mainText;
     
     [SerializeField]
     private ARMarkerManager markerManager;
-
-    [SerializeField]
     private TextMeshProUGUI textMeshPro;
 
     void Start()
